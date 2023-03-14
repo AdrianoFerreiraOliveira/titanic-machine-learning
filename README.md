@@ -1,4 +1,4 @@
-Este repositório contém o projeto de Data Science que eu desenvolvi com o objetivo de analisar e visualizar um conjunto de dados e criar um modelo preditivo.
+<h2>Este repositório contém o projeto de Data Science que eu desenvolvi com o objetivo de analisar e visualizar um conjunto de dados e criar um modelo preditivo.</h2>
 
 Conjunto de dados
 O conjunto de dados que eu escolhi para este projeto é o Titanic dataset do Kaggle. Este conjunto de dados contém informações sobre os passageiros do Titanic e é frequentemente usado em projetos de Data Science para prever a sobrevivência dos passageiros com base em seus atributos.
