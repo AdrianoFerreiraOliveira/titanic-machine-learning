@@ -1,29 +1,39 @@
-<h2>Este repositório contém o projeto de Data Science que eu desenvolvi com o objetivo de analisar e visualizar um conjunto de dados e criar um modelo preditivo.</h2>
+<h1>Titanic Data Science Project</h1>
 
-Conjunto de dados
-O conjunto de dados que eu escolhi para este projeto é o Titanic dataset do Kaggle. Este conjunto de dados contém informações sobre os passageiros do Titanic e é frequentemente usado em projetos de Data Science para prever a sobrevivência dos passageiros com base em seus atributos.
+<p>This repository contains a Data Science project I developed with the goal of analyzing and visualizing a dataset, and creating a predictive model.</p>
 
-Arquivos do repositório
-titanic_data.csv : O conjunto de dados original
-titanic_analysis.ipynb : Jupyter Notebook contendo todo o código Python utilizado na análise e visualização de dados.
-titanic_model.ipynb : Jupyter Notebook contendo o código Python utilizado para treinar e avaliar o modelo preditivo.
-titanic_model.pkl : O modelo preditivo treinado e salvo em um arquivo .pkl.
-README.md : O arquivo que você está lendo agora.
-Análise e visualização de dados
-O arquivo titanic_analysis.ipynb contém todo o código utilizado na análise e visualização de dados. Neste notebook, eu explorei o conjunto de dados, verificando a qualidade dos dados, eliminando dados duplicados e tratando dados ausentes. Além disso, criei gráficos e tabelas para visualizar a distribuição de dados em diferentes atributos e analisei a correlação entre os atributos.
+<h2>Dataset</h2>
 
-Modelo preditivo
-O arquivo titanic_model.ipynb contém o código utilizado para treinar e avaliar o modelo preditivo. Neste notebook, eu utilizei o algoritmo de regressão logística para prever a sobrevivência dos passageiros com base em seus atributos. Eu avaliei a precisão do modelo utilizando a validação cruzada e criei uma matriz de confusão para visualizar a performance do modelo.
+<p>The dataset chosen for this project is the Titanic dataset from Kaggle. This dataset contains information about Titanic passengers and is often used in Data Science projects to predict passenger survival based on their attributes.</p>
 
-O modelo treinado foi salvo em um arquivo titanic_model.pkl para uso futuro.
+<h2>Repository Files</h2>
 
-Como executar o código
-Para executar o código em sua máquina local, você precisa ter o Python e os pacotes necessários instalados. Para instalar os pacotes, você pode usar o seguinte comando no terminal:
+<ul>
+  <li><code>titanic_data.csv</code>: The original dataset.</li>
+  <li><code>titanic_analysis.ipynb</code>: Jupyter Notebook containing all the Python code used for data analysis and visualization.</li>
+  <li><code>titanic_model.ipynb</code>: Jupyter Notebook containing the Python code used to train and evaluate the predictive model.</li>
+  <li><code>titanic_model.pkl</code>: The trained predictive model saved as a .pkl file.</li>
+  <li><code>README.md</code>: The file you are reading now.</li>
+</ul>
 
-Copy code
-pip install -r requirements.txt
-Após instalar os pacotes, você pode executar os notebooks Jupyter através do comando:
+<h2>Data Analysis and Visualization</h2>
 
-Copy code
-jupyter notebook
-Isso abrirá uma janela do navegador contendo todos os notebooks do repositório. Você pode abrir e executar os notebooks na ordem em que estão listados acima.
+<p>The <code>titanic_analysis.ipynb</code> file contains all the code used for data analysis and visualization. In this notebook, I explored the dataset by checking data quality, removing duplicates, and handling missing data. Additionally, I created charts and tables to visualize data distribution across various attributes and analyzed the correlation between attributes.</p>
+
+<h2>Predictive Model</h2>
+
+<p>The <code>titanic_model.ipynb</code> file contains the code used to train and evaluate the predictive model. In this notebook, I used a logistic regression algorithm to predict passenger survival based on their attributes. I evaluated model accuracy using cross-validation and created a confusion matrix to visualize model performance.</p>
+
+<p>The trained model was saved as <code>titanic_model.pkl</code> for future use.</p>
+
+<h2>How to Run the Code</h2>
+
+<p>To run the code on your local machine, you need to have Python and the required packages installed. To install the packages, run the following command in your terminal:</p>
+
+<pre><code>pip install -r requirements.txt</code></pre>
+
+<p>Once the packages are installed, you can run the Jupyter notebooks by executing the following command:</p>
+
+<pre><code>jupyter notebook</code></pre>
+
+<p>This will open a browser window with all the notebooks in the repository. You can open and execute the notebooks in the order listed above.</p>
